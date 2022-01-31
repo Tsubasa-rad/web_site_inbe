@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">熊本地震記録</a>
+        <div class="menuToggle"></div>
+    </header>
+    <ul class="navigation">
+        <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#times" onclick="toggleMenu()">時間</a></li>
+        <li><a href="#about" onclick="toggleMenu()">熊本地震について</a></li>
+    </ul>
+
+    <!--Banner-->
+    <section class="banner" id="home">
+        <img src="img/homer.jpg" id="bg">
+        <h2 id="text">熊本地震</h2>
+        <img src="img/mainimg.PNG" id="man">
+        <img src="img/jjj.png" id="mountain_left">
+        <img src="img/ddd.png" id="mountain_right">
+    </section>
+
+    <!--Latest Blog Post-->
+    <section class="times" id="times">
+
+        <h1>熊本地震発生から</h1>
+        <div id="countdown" class="countdown">
+            <div class="time">
+                <h2 id="year"></h2>
+                <small>year</small>
+            </div>
+
+            <div class="time">
+                <h2 id="days"></h2>
+                <small>Days</small>
+            </div>
+
+            <div class="time">
+                <h2 id="hours"></h2>
+                <small>hours</small>
+            </div>
+
+            <div class="time">
+                <h2 id="minutes"></h2>
+                <small>minutes</small>
+            </div>
+            <div class="time">
+                <h2 id="seconds"></h2>
+                <small>seconds</small>
+            </div>
+        </div>
+    
+    </section>
+
+    <!--About-->
+    <section class="about" id="about">
+        <div class="title">
+            <h2>熊本地震について</h2>
+        </div>
+        <div class="contentBx">
+            <div class="content">
+                <p>熊本地震は、2016年4月16日１時25分に本震である地震が起きた。
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi officiis quis, tempore 
+                    eius culpa hic ullam reiciendis ea illo qui accusamus, repudiandae delectus, eligendi
+                    reprehenderit amet minima suscipit debitis atque fugit omnis non magnam repellendus 
+                    facere quia. Eligendi voluptatibus dolorum repellendus suscipit error, ipsam corporis
+                    quam beatae soluta fuga dolorem mollitia nostrum. Laudantium molestias nesciunt omnis 
+                    ea iste ullam voluptatem nam! Dignissimos voluptatum, animi cumque nam ipsum maiores 
+                    delectus minima quibusdam voluptatem quasi assumenda iure tenetur id expedita numquam, 
+                    ab reprehenderit praesentium dicta accusamus? Nostrum atque rem eos harum omnis inventore 
+                    iusto ratione, libero? Itaque eius ex 
+                    quae quasi quis obcaecati eum iusto quo doloribus molestiae rem consequuntur ipsa quas illo 
+                    sapiente, adipisci voluptates,<br><br> ratione autem harum provident neque sed labore magnam? Ipsam 
+                    voluptates facere placeat iste accusantium minus unde maiores dicta culpa at quia quis 
+                    recusandae officia distinctio saepe, veniam amet totam quaerat reiciendis nihil. Suscipit 
+                    numquam fuga velit optio quod iusto  molestiae animi sapiente ut nihil odio. Corporis vel tempore 
+                    eum. Deserunt molestias placeat nobis!</p>
+            </div>
+            <div class="content">
+                <div class="imgBx">
+                    <img src="img/IMG_0777.jpg" class="cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <a href="#" class="logo">My Blog</a>
+        <ul class="footerMenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#times">時間</a></li>
+            <li><a href="#about">熊本地震について</a></li>
+        </ul>
+        <p class="copyrightText">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js"></script>
+    
+</body>
+</html>
